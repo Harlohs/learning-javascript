@@ -5,7 +5,7 @@
 // name = "steve smith";
 // console.log(name);
 
-// //init var | lets you create a variable without any = content:
+// initialize variable |lets you create variable without = content |
 // var greeting;
 // console.log(greeting);
 // greeting = "hello";
