@@ -4,10 +4,10 @@ const job = "web developer";
 const city = "miami";
 let html;
 
-// without template strings (es5)
+// without template strings (es5) | this is a basic html string | and is probably the worst way to make a list
 html = '<ul><li>Name: '+ name +'</li><li>Age: '+ age +'</li><li>Job: '+ job +'</li><li>City: '+ city +'</li></ul>';
 
-// kind of outdated way of doing lists
+// kind of outdated way of doing lists | more in dated but there is still easier way|
 html = '<ul>' +
        '<li>Name: '+ name +'</li>' +
        '<li>Age: '+ age +'</li>' +
@@ -19,7 +19,7 @@ function hello(){
   return 'hello';
 }
 
-// with template literals (es6)
+// with template literals (es6) | `` back ticks are your savior |
 html = `
   <ul>
     <li>Name: ${name} </li>

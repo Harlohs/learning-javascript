@@ -13,8 +13,9 @@ switch(color){
     break;
 }
 
-let day;
+// goes through the cases to find the number that coorelates with todays day
 
+let day;
 switch(new Date().getDay()){
   case 0:
     day = 'Sunday';

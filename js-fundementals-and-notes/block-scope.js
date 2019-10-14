@@ -11,15 +11,15 @@ const c = 3;
 // }
 // test();
 
-  //block scope
+//block scope 
 // if(true) {
-//   var a = 4;
+//   var a = 4; // | breaks because VAR A was changed on the global scope | 
 //   let b = 5;
 //   const c = 6;
 //   console.log('block scope: ', a, b, c);
 // }
 
-for(let a = 0; a < 10; a++){
+for(let a = 0; a < 10; a++){ 
   console.log(`Loop: ${a}`);
 }
 

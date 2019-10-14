@@ -1,4 +1,4 @@
-//defines object literal
+//defines object literal | variable = {} |
 const person = {
   firstName: 'Stewie',
   lastName: 'Smoke Criminal',
@@ -10,18 +10,18 @@ const person = {
     state: 'CA'
   },
   getBirthyear: function(){
-    return 2019 - this.age;
+    return 2019 - this.age; // 2019 minus age = birthyear
   }
 };
 
 let val;
-
 val = person;
-// get specific value from object
+
+// get specific value from object | value.object |
 val = person.firstName;
 val = person['lastName'];
 val = person.age;
-val = person.hobbies[1];
+val = person.hobbies[1]; // gives us the second hobby on list
 val = person.address.city;
 val = person.getBirthyear();
 

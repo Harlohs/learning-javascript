@@ -30,7 +30,7 @@ PRIMITIVE data types
 
   
 /*==========================================
-REFERENCE TYPES - objects
+REFERENCE TYPES - objects | accessed from memory for reference |
 ==========================================*/
 // arrays
   const hobbies = ['movies', 'music', 'painting'];

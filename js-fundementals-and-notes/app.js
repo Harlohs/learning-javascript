@@ -11,7 +11,7 @@ console.error("this is an error message"); // Lets you log an error personally
 console.clear() // clears the console
  */
 console.warn('oop'); //warning msg in console
-
+ 
 console.time("hello");
 console.log('hello world');
 console.log('hello world');

@@ -5,7 +5,7 @@ const today = new Date();
 val = today;
 val = today.toString();
 
-//select a specific date and time
+//select a specific date and time | if nothing is put in the () it defaults to todays date  |
 let birthday = new Date('5-3-1996 11:12:00');
 birthday = new Date('may 3 1996 11:12:00');
 birthday = new Date('5/3/1996 11:12:00');
