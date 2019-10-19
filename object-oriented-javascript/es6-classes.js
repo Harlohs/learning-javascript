@@ -1,4 +1,4 @@
-class Person {
+class Person { // an easier way to use objects
   constructor(firstName, lastName, dob) {
     this.firstName = firstName;
     this.lastName = lastName;

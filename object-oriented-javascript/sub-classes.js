@@ -11,9 +11,9 @@ class Person {
 // new class creating extends previous class
 class Customer extends Person { // customer is sub to person
   constructor(firstName, lastName, phone, membership) {
-    super(firstName, lastName); // we do this because they were initalized in previous class
+    super(firstName, lastName); // we do this because they were initialized in previous class | calls parent class constructor |
 
-    this.phone = phone;
+    this.phone = phone;  
     this.membership = membership
   }
 

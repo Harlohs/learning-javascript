@@ -8,7 +8,7 @@ const personPrototypes = {
   }
 }
 
-const mary = Object.create(personPrototypes);
+const mary = Object.create(personPrototypes); // makes mary a sub object to personProtypes
 mary.firstName = 'Mary';
 mary.lastName = 'Williams'
 mary.age = 30;
@@ -18,7 +18,7 @@ console.log(mary.greeting());
 mary.getsMarried('Thompson');
 console.log(mary.greeting());
 
-const brad = Object.create(personPrototypes, {
+const brad = Object.create(personPrototypes, { // makes brad a sub object to personProtypes
  firstName: {value: 'Brad'},
  lastName: {value: 'Traversy'},
  age: {value: 36}

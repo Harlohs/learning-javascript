@@ -1,6 +1,6 @@
 // person constructor
 function Person(name, dob){ // the overall look of this object creates a consstructor
-  this.name = name; // this refers to the current instant of the object | here we are using this to define the person name|
+  this.name = name; // this refers to the current instant of the constructor object | here we are using this to define the person name |
   // this.age = age;
   this.birthday = new Date(dob); 
   this.calculateAge = function(){ // this creates a method
